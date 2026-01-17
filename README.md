@@ -2,14 +2,14 @@
 
 A full-stack web application for managing job candidates with real-time updates, advanced filtering, and modern UI/UX.
 
-## 🌐 Live Demo
+## Live Demo
 
 **Frontend:** https://test-task-for-jot-solutions.vercel.app  
 **Backend API:** [https://candidate-api-mj3z.onrender.com/api](https://candidate-api-mj3z.onrender.com/)
 
 > ⚠️ **Note:** Hosted on free tier (Render + Vercel). First load may take 30-50 seconds as the backend spins up from sleep mode. Please be patient!
 
-## 📸 Preview
+## Preview
 
 <img width="1886" height="875" alt="image" src="https://github.com/user-attachments/assets/8c942a47-39a3-488d-ac69-6ea43deea8c7" />
 <img width="1874" height="871" alt="image" src="https://github.com/user-attachments/assets/97c80eb0-1b74-46cb-9a09-4d56e6a001f5" />
@@ -24,7 +24,7 @@ A full-stack web application for managing job candidates with real-time updates,
 
 ---
 
-## ✨ What's Implemented
+## What's Implemented
 
 ### Core Features
 - **Full CRUD operations** for candidate management
@@ -45,7 +45,7 @@ A full-stack web application for managing job candidates with real-time updates,
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19** with **TypeScript** - latest stable version, full type safety
@@ -69,7 +69,7 @@ A full-stack web application for managing job candidates with real-time updates,
 
 ---
 
-## 🎯 Technical Highlights
+## Technical Highlights
 
 ### 1. Optimistic UI Updates
 ```typescript
@@ -172,7 +172,7 @@ export function validateCreateCandidateDTO(body: any) {
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -202,7 +202,7 @@ Content-Type: application/json
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -242,7 +242,7 @@ Open http://localhost:5173
 
 ---
 
-## 🎨 Key Features Breakdown
+## Key Features Breakdown
 
 ### Candidate Card Component
 - Color-coded avatars with initials
@@ -266,7 +266,7 @@ Open http://localhost:5173
 
 ---
 
-## ✅ Requirements Checklist
+## Requirements Checklist
 
 - ✅ React 18+ with TypeScript
 - ✅ Functional components and hooks
@@ -297,7 +297,7 @@ Open http://localhost:5173
 
 ---
 
-## 🔧 Development Notes
+## Development Notes
 
 ### Why These Choices?
 
@@ -319,13 +319,13 @@ Open http://localhost:5173
 
 ---
 
-## 📝 License
+## License
 
 MIT
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed as a test task for JotSolutions
 
@@ -339,7 +339,7 @@ Developed as a test task for JotSolutions
 
 Повнофункціональний веб-застосунок для управління кандидатами з оновленнями в реальному часі, розширеною фільтрацією та сучасним UI/UX.
 
-## 🌐 Демо
+## Демо
 
 **Frontend:** https://test-task-for-jot-solutions.vercel.app  
 **Backend API:** [https://candidate-api-mj3z.onrender.com/api](https://candidate-api-mj3z.onrender.com/)
@@ -354,7 +354,7 @@ Developed as a test task for JotSolutions
 <img width="643" height="782" alt="image" src="https://github.com/user-attachments/assets/87760a33-8479-447d-b200-c1d672aa368f" />
 <img width="641" height="786" alt="image" src="https://github.com/user-attachments/assets/9b340336-7f7c-4f1d-b544-47502b534378" />
 
-## ✨ Що реалізовано
+## Що реалізовано
 
 ### Основний функціонал
 - **Повний CRUD** для управління кандидатами
@@ -373,7 +373,7 @@ Developed as a test task for JotSolutions
 - **Гарячі клавіші** - ESC для закриття модалок, Enter для підтвердження
 - **Обробка помилок** - коректні повідомлення про помилки
 
-## 🛠️ Стек технологій
+## Стек технологій
 
 ### Frontend
 - **React 19** + **TypeScript**
@@ -392,7 +392,7 @@ Developed as a test task for JotSolutions
 - **Vercel** - frontend
 - **Render** - backend та база даних
 
-## 🎯 Технічні особливості
+## Технічні особливості
 
 ### Optimistic UI Updates
 Інтерфейс оновлюється миттєво, навіть до відповіді сервера. Якщо запит не вдається - автоматичний rollback до попереднього стану.
@@ -409,7 +409,7 @@ Developed as a test task for JotSolutions
 ### Many-to-Many Relations
 Коректна реалізація зв'язку багато-до-багатьох між кандидатами та навичками через проміжну таблицю.
 
-## 📡 API
+## API
 
 | Метод | Endpoint | Опис |
 |-------|----------|------|
@@ -421,7 +421,7 @@ Developed as a test task for JotSolutions
 | `PATCH` | `/api/candidates/:id/status` | Змінити статус |
 | `DELETE` | `/api/candidates/:id` | Видалити кандидата |
 
-## ✅ Виконані вимоги
+## Виконані вимоги
 
 - ✅ React 18+ з TypeScript
 - ✅ Функціональні компоненти та хуки
@@ -449,10 +449,10 @@ Developed as a test task for JotSolutions
 - ✅ Повний CRUD
 - ✅ TypeScript на всьому стеку
 
-## 📝 Ліцензія
+## Ліцензія
 
 MIT
 
-## 👨‍💻 Автор
+## Автор
 
 Розроблено як тестове завдання для JotSolutions
