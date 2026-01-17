@@ -5,7 +5,7 @@ A full-stack web application for managing job candidates with real-time updates,
 ## 🌐 Live Demo
 
 **Frontend:** https://test-task-for-jot-solutions.vercel.app  
-**Backend API:** https://candidate-api-mj3z.onrender.com/api
+**Backend API:** [https://candidate-api-mj3z.onrender.com/api](https://candidate-api-mj3z.onrender.com/)
 
 > ⚠️ **Note:** Hosted on free tier (Render + Vercel). First load may take 30-50 seconds as the backend spins up from sleep mode. Please be patient!
 
@@ -342,7 +342,7 @@ Developed as a test task for JotSolutions
 ## 🌐 Демо
 
 **Frontend:** https://test-task-for-jot-solutions.vercel.app  
-**Backend API:** https://candidate-api-mj3z.onrender.com/api
+**Backend API:** [https://candidate-api-mj3z.onrender.com/api](https://candidate-api-mj3z.onrender.com/)
 
 > ⚠️ **Увага:** Розміщено на безкоштовних серверах. Перше завантаження може зайняти 30-50 секунд, оскільки backend "засинає" після 15 хвилин неактивності.
 
