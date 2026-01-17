@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Candidate, CandidateStatus, CreateCandidateDTO, UpdateCandidateDTO } from '../types';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://candidate-api-mj3z.onrender.com/api';
 
 export const candidatesAPI = {
     getAll: async (): Promise<Candidate[]> => {
