@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "tsc",
-    "start": "npx prisma migrate deploy && node dist/server.js",
-    "postinstall": "prisma generate",
-    "prisma:migrate": "prisma migrate dev --name init",
-    "prisma:seed": "ts-node src/seed.ts"
+    "start": "npx prisma db push && node dist/server.js",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "express": "^4.18.2",
