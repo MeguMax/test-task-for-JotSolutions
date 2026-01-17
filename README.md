@@ -1,6 +1,3 @@
-# 🚀 README.md для GitHub
-
-```markdown
 # Candidate Management Dashboard
 
 A full-stack web application for managing job candidates with real-time updates, advanced filtering, and modern UI/UX.
@@ -70,11 +67,11 @@ A full-stack web application for managing job candidates with real-time updates,
 // Update UI immediately, rollback on error
 const updateStatus = async (id: number, status: CandidateStatus) => {
     const previousCandidates = [...candidates];
-    
+
     setCandidates(prev =>
         prev.map(c => c.id === id ? { ...c, status } : c)
     );
-    
+
     try {
         await candidatesAPI.updateStatus(id, status);
     } catch (err) {
@@ -89,11 +86,11 @@ const updateStatus = async (id: number, status: CandidateStatus) => {
 export const useCandidates = () => {
     const [candidates, setCandidates] = useState<Candidate[]>([]);
     const [loading, setLoading] = useState(true);
-    
+
     // Centralized API logic with error handling
     // Optimistic updates for better UX
     // Toast notifications for user feedback
-    
+
     return { candidates, loading, updateStatus, createCandidate, ... };
 };
 ```
@@ -107,10 +104,10 @@ const filteredAndSortedCandidates = useMemo(() => {
         const matchesSkill = !skillFilter || candidate.skills.includes(skillFilter);
         return matchesSearch && matchesStatus && matchesSkill;
     });
-    
+
     // Sorting logic
     result.sort((a, b) => { /* ... */ });
-    
+
     return result;
 }, [candidates, searchTerm, statusFilter, skillFilter, sortOption]);
 ```
@@ -151,15 +148,15 @@ export function validateCreateCandidateDTO(body: any) {
     if (!body.name || typeof body.name !== 'string') {
         return { valid: false, error: 'Name is required' };
     }
-    
+
     if (!body.email || !body.email.includes('@')) {
         return { valid: false, error: 'Valid email is required' };
     }
-    
+
     if (!Array.isArray(body.skills) || body.skills.length === 0) {
         return { valid: false, error: 'At least one skill required' };
     }
-    
+
     return { valid: true, data: { /* sanitized data */ } };
 }
 ```
@@ -319,6 +316,14 @@ MIT
 
 ---
 
+## 👨‍💻 Author
+
+Developed as a test task for JotSolutions
+
+---
+
+---
+
 # 🇺🇦 README Українською
 
 ## Candidate Management Dashboard
@@ -428,6 +433,9 @@ MIT
 - ✅ TypeScript на всьому стеку
 
 ## 📝 Ліцензія
-```
 
-**Готово! Професійний README який показує твої навички! Використовуй його на GitHub!** 🚀
+MIT
+
+## 👨‍💻 Автор
+
+Розроблено як тестове завдання для JotSolutions
