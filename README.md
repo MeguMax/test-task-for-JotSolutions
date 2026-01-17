@@ -1,4 +1,4 @@
-# Candidate Management Dashboard
+<img width="1232" height="876" alt="image" src="https://github.com/user-attachments/assets/603b7772-92fc-4fb5-858c-1c8463d8c3e1" /># Candidate Management Dashboard
 
 A full-stack web application for managing job candidates with real-time updates, advanced filtering, and modern UI/UX.
 
@@ -11,7 +11,16 @@ A full-stack web application for managing job candidates with real-time updates,
 
 ## 📸 Preview
 
-[Insert main screenshot here]
+<img width="1886" height="875" alt="image" src="https://github.com/user-attachments/assets/8c942a47-39a3-488d-ac69-6ea43deea8c7" />
+<img width="1874" height="871" alt="image" src="https://github.com/user-attachments/assets/97c80eb0-1b74-46cb-9a09-4d56e6a001f5" />
+<img width="1250" height="874" alt="image" src="https://github.com/user-attachments/assets/302ff5a1-a809-45b2-af88-57f8267996dc" />
+<img width="1232" height="876" alt="image" src="https://github.com/user-attachments/assets/dfaeafa8-9831-475f-a5f7-b7d4b9d1bdc8" />
+<img width="1270" height="874" alt="image" src="https://github.com/user-attachments/assets/f25008f1-ebb4-48c1-b656-5b464b561005" />
+<img width="643" height="782" alt="image" src="https://github.com/user-attachments/assets/87760a33-8479-447d-b200-c1d672aa368f" />
+<img width="641" height="786" alt="image" src="https://github.com/user-attachments/assets/9b340336-7f7c-4f1d-b544-47502b534378" />
+
+
+
 
 ---
 
