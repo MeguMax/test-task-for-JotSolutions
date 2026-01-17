@@ -10,9 +10,11 @@ const PORT = process.env.PORT || 5000;
 
 // CORS
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production'
-        ? process.env.ALLOWED_ORIGIN || '*'
-        : 'http://localhost:5173',
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:3000',
+        'https://test-task-for-jot-solutions.vercel.app'
+    ],
     credentials: true
 }));
 
